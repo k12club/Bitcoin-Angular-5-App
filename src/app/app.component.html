@@ -1,0 +1,39 @@
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar navbar-dark warning-color" [containerInside]="true">
+  <logo>
+      <a class="logo navbar-brand" href="#"><strong  class="logoText"><i class="fa fa-btc" aria-hidden="true"></i> Bitcoin price</strong><small></small></a>
+  </logo>
+  <links>
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item active waves-light" mdbRippleRadius>
+              <a class="nav-link">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item waves-light" mdbRippleRadius>
+              <a class="nav-link">Bitcoin month rate</a>
+          </li>
+          <li class="nav-item waves-light" mdbRippleRadius>
+              <a class="nav-link">Base currency rate</a>
+          </li>
+      </ul>
+      <!-- <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item waves-light" mdbRippleRadius>
+              <a class="nav-link"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li class="nav-item waves-light" mdbRippleRadius>
+              <a class="nav-link"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li class="nav-item waves-light" mdbRippleRadius>
+              <a class="nav-link"><i class="fa fa-instagram"></i></a>
+          </li>
+      </ul> -->
+  </links>
+</mdb-navbar>
+<!-- Main -->
+<main>
+ 
+    <div class="container-own" *ngIf="chart">
+      <canvas class="row-chart" id="canvas">{{ chart }}</canvas>
+    </div>
+ 
+</main>
+ 
+ 

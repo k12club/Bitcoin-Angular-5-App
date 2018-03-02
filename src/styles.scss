@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+ 
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: "#FFFFFF";
+    
+}
+
+.logoText{
+    
+    font-size: 25px;
+    font-weight: bold;
+}
+
+app-root{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-color: red;
+     
+}
+
+.container-own{
+    width: 90vw;
+    height: auto;
+    background-size: cover;
+    margin-left: 4% !important;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+
+ }
+
+ .warning-color {
+    background-color: #f1a919 !important;
+}
